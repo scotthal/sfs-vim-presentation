@@ -83,7 +83,7 @@ layout: image-left
 image: assets/scotts-signal.png
 ---
 
-# Hi, I'm Scott
+# Hi. I'm Scott.
 
 - I'm on a break from the tech industry after almost 30 years.
 - I started programming as a hobbyist in the mid-1970s.
