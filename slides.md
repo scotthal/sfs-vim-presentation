@@ -80,7 +80,7 @@ different style of editing than I am.  All of those are fine.
 
 ---
 layout: image-left
-image: assets/scotts-signal.png
+image: /scotts-signal.png
 ---
 
 # Hi. I'm Scott.
@@ -143,7 +143,7 @@ UNIX before becoming an editor unto itself.
 
 ---
 layout: image-left
-image: assets/Teletype-IMG_7287.jpg
+image: /Teletype-IMG_7287.jpg
 backgroundSize: contain
 ---
 
@@ -167,7 +167,7 @@ Bill Joy and his contemporaries weren't using teletypes.
 
 ---
 layout: image-right
-image:  assets/ADM_3A_(82481457).jpg
+image:  /ADM_3A_(82481457).jpg
 backgroundSize: contain
 ---
 
