@@ -258,6 +258,40 @@ has added support for extensibility, multiple windows, and multi-level undo.
 -->
 
 ---
+layout: image-left
+image: /Atari_1040STf.jpg
+backgroundSize: contain
+---
+
+Image credit:  [Wikimedia Foundation](https://en.wikipedia.org/wiki/Atari_ST)
+
+<!--
+
+During the 1980s, we had BSD UNIX powering computer science curricula at 1000+
+universities around the world, requiring students to learn vi in order to write
+programs on it.  Meanwhile, we had an explosion of cheap microcomputers like
+the Atari ST flooding the market, providing sufficient computing power to make
+those students wonder if they could have a programming environment at home
+similar to what they had in the lab at their university.
+
+-->
+
+---
+layout: image-right
+image: /Amiga500_system.jpg
+backgroundSize: contain
+---
+
+Image credit:  [Wikimedia Foundation](https://en.wikipedia.org/wiki/Amiga)
+
+<!--
+
+The Commodore Amiga provided even more power for, generally, a slightly higher
+price.
+
+-->
+
+---
 
 # I'll ask one more time.  What is vim?
 
@@ -320,65 +354,104 @@ a Cambrian Explosion of development for Neovim.
 
 ---
 
-# Hard dependencies should be free
+# Neovim demonstration
 
-- Your editor is your sword
-- Prior bad outcomes
-    - Textmate
-    - VS Code
-    - Cursor
+<!--
 
----
+- From the Earth to the Moon sample text
+- Display the entire text
+- Page around
+- Find lines with "cannon"
+- Move a paragraph
+- Replace "cannon" with "burrito" in a set of lines
+- Append a line to the enclosing "burrito" paragraph, typed directly
+- Delete the appended line
+- Replace "cannon" with "burrito" in the entire text
+- Save the modified file
+- Show a diff
 
-# vim reduces friction
-
-between you and your code
-
-- QWERTY home row
-- modal
-- motions
-
----
-
-# vim is powerful
-
-- Very powerful search and replace
-- Fast means of making large edits to code and documents
-- This entire presentation was made in vim!
+-->
 
 ---
 
-# vim and neovim
+# It's important to have a say in the development of your most important tools
 
-- vim development was guided by Bram Moolenaar
-- neovim forked in 2014 with an initial focus on code modernization and
-  expanded scope of contribution
-  - Added Lua scripting
-  - Added built-in LSP client
-- If you are getting started today, it is probably best to start with neovim,
-  as the availability of Lua scripting has led to an explosion of plugin
-  development
-  - For this talk, we will install and use vim, as it is easier and faster to
-    get to the tutorial on a variety of platforms
+> I've been using the TextMate programming editor since it was first created
+> back in 2004. That's twenty years now. Almost as long as my time with Ruby
+> working on Rails. TextMate has seen its popularity come and go in that time,
+> and today, few people are still choosing it. But I don't care.
 
----
+> But here's the problem. TextMate is tied to the Mac. And tying myself to the
+> Mac seems like an increasingly bad idea. Apple has turned into the kind of
+> company that I just don't want to have to rely on. That doesn't mean I can't
+> use any of their products, but I absolutely do not want to feel like I have
+> to. I want to have the independence where walking away is always an option,
+> and it just isn't, as long as I'm committed to TextMate.
 
-# vim is hard to install
+DHH, [February,
+2024](https://world.hey.com/dhh/finding-the-last-editor-dae701cc)
 
----
+<!--
 
-# vim can be hard to learn
+DHH felt trapped on a platform, the Mac, that he strongly felt no longer
+supported his values.  He felt trapped because he had invested heavily in an
+editor over which he had almost no control.  What's going on, here?
 
-- Users are expected to go out and find features rather than having features
-  surfaced for them
-  - This, though, is what allows vim to be very clean, focused, and fast in the
-    hands of an experienced user
-  - Case in point, vim has an excellent help system and tutorial, but you need
-    to know they are there and how to invoke them.
+-->
 
 ---
 
-# Resources
+# TextMate
+
+- Introduced in October, 2004 with a proprietary license
+- Became synonymous with Ruby on Rails development
+- TextMate 2 announced in July, 2009
+  - Alpha quality download available December, 2011
+  - Unfinished source code published under GPL 3 August, 2012
+  - Last Github commit October, 2021
+
+> I hope this results in faster development and a less buggy product for what’s
+> still my favorite editor.
+
+> But I suspect that it’s more likely that it will just get abandoned. TextMate
+> 2 was just sent to retire on a farm upstate, kids.
+
+Marco Arment, [August,
+2012](https://marco.org/2012/08/09/textmate-2-open-sourced)
+
+<!--
+
+What happened, here?  Many developers tied their ability to be productive to
+the output of a single developer, releasing an editor under a proprietary
+license.  In this case, the single developer of TextMate just lost interest in
+the project and stopped providing updates.  The editor was ultimately
+open-sourced, but it had no community and no one took up development.  Many
+developers were stuck with painful migrations to tools that left them less
+productive.
+
+A corporate strategy change at a large company could have resulted in the same
+outcome.
+
+Contrast this with vi, which Bill Joy describes as attracting an active and
+committed community early in its life.  Bill Joy himself lost interest in the
+project, but the community quickly took up the burden of development.
+
+The lesson is clear.  Make your big, strategic investments in tools that are
+supported by the community of their users, not by individuals or corporations.
+
+DHH, by the way, ended up using Neovim.
+
+AI makes this problem worse.  AI editor users are offloading a significant
+portion of their cognition to systems over which they have no control.  How
+many Cursor users are upset about recent pricing changes?
+
+-->
+
+---
+
+---
+
+# Further Resources
 
 - [TJ Devries Advent of
   Neovim](https://www.youtube.com/watch?v=TQn2hJeHQbM&list=PLep05UYkc6wTyBe7kPjQFWVXTlhKeQejM)
@@ -386,6 +459,14 @@ between you and your code
   Scratch](https://www.youtube.com/playlist?list=PLsz00TDipIffxsNXSkskknolKShdbcALR)
 
 ---
+layout: image-left
+image: /scotts-signal.png
+---
 
-# Let's install vim!
+# Slides and contact information
+
+- https://scotthal.github.io/sfs-vim-presentation
+- scott@hallocks.net
+  - I'm [bad at email](https://www-cs-faculty.stanford.edu/~knuth/email.html)
+    these days.  Prefer Signal.
 
