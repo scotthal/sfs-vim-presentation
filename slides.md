@@ -451,6 +451,59 @@ many Cursor users are upset about recent pricing changes?
 
 ---
 
+# Let's install Neovim!
+
+- If you've come this far and decided that vim isn't for you, that's ok!
+  Different ways of seeing the world help us all attack problems from multiple
+  starting points.
+- If you want to try out vim, you need to be able to
+  - Download a compressed archive
+  - Extract that compressed archive
+  - Open a terminal in the folder containing the extracted contents of the
+    compressed archive
+  - Use a program in your terminal that moves the cursor around and displays
+    different colors
+
+<!--
+
+Plain vim is great, too!  I use it all the time.  It's still the default for my
+git commit messages, for instance.  However, it weirdly separates its tutorial
+into a separate binary that some vim packages don't install.  Neovim packages
+its tutorial right into the main editor.  If you can install Neovim, you'll be
+able to run the tutorial.
+
+-->
+
+---
+
+# Let's install Neovim!
+
+- Go to https://github.com/neovim/neovim/releases/latest in a browser
+- Download the archive for your platform
+  - Windows users, prefer the zip over the msi
+  - Other platforms, prefer the tar.gz over anything else
+- Use your favorite archiving tool to extract the archive into a folder you can
+  access from the terminal
+- Open a terminal and navigate to the folder that contains the extracted
+  archive
+- Run bin/nvim
+- Enter ":Tutor" without the quotes
+- Follow the instructions that appear
+
+---
+
+# Command
+# Count
+# Motion
+
+<!--
+
+Commands in normal mode can be composed from a _command_, a _repetition count_,
+and a _motion_.  This allows you to apply commands to arbitrary collections of
+text objects.  Keep this in mind as you work through Neovim's tutorial.
+
+-->
+
 ---
 
 # Further Resources
