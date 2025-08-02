@@ -512,6 +512,8 @@ text objects.  Keep this in mind as you work through Neovim's tutorial.
   Neovim](https://www.youtube.com/watch?v=TQn2hJeHQbM&list=PLep05UYkc6wTyBe7kPjQFWVXTlhKeQejM)
 - [Typecraft Neovim from
   Scratch](https://www.youtube.com/playlist?list=PLsz00TDipIffxsNXSkskknolKShdbcALR)
+- [The Primeagen vim as Your
+  Editor](https://www.youtube.com/playlist?list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R)
 
 ---
 layout: image-left
