@@ -5,6 +5,8 @@ title: vim
 # vim
 A personal voyage
 
+https://scotthal.github.io/sfs-vim-presentation
+
 ---
 
 # The primary thesis of this talk
